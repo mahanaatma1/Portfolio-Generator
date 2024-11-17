@@ -1,6 +1,6 @@
 function saveData() {
     const name = document.getElementById("name").value;
-    const description = document.getElementById("description").value;
+    const description = document.getElementById("descrip").value;
     const linkin = document.getElementById("linkedin-link").value;
     const github = document.getElementById("github-link").value;
     const twitter = document.getElementById("twitter-link").value;
@@ -13,8 +13,8 @@ function saveData() {
 
     localStorage.setItem("portfolioDescription", description);
     localStorage.setItem("portfolioName", name);
-    localStorage.setItem("linkedInLink", linkedin);
-    localStorage.setItem("GithubLink", github);
+    localStorage.setItem("linkedInLink", linkin);
+    localStorage.setItem("GithunLink", github);
     localStorage.setItem("TwitterLink", twitter);
     localStorage.setItem("InstagramLink", instagram);
     localStorage.setItem("ServiceLink", service);
